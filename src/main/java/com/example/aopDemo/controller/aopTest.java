@@ -14,15 +14,15 @@ import org.springframework.web.bind.annotation.RestController;
 public class aopTest {
 
     @GetMapping(value = "/list")
-    @McPermission("mcc")
+    @McPermission("kei")
     public String list() {
         System.out.println("成功");
-        return "success";
+        return "success11";
     }
 
 
     @GetMapping(value = "/list1")
-    @McPermission("kei")
+    @McPermission("NiuNiu")
     public String list1() {
         System.out.println("成功");
         return "success";

@@ -14,9 +14,9 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class WebConfig {
 
-    @Bean
-    @ConditionalOnMissingBean
-    public McAdvisor permissionAdvisor() {
-        return new McAdvisor(new McInterceptor());
-    }
+//    @Bean
+//    @ConditionalOnMissingBean
+//    public McAdvisor permissionAdvisor() {
+//        return new McAdvisor(new McInterceptor());
+//    }
 }
