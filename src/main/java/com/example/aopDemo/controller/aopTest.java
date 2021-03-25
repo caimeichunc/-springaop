@@ -25,6 +25,7 @@ public class aopTest {
     @McPermission("NiuNiu")
     public String list1() {
         System.out.println("成功");
+        System.out.println("----------------------------------------");
         return "success";
     }
 }
