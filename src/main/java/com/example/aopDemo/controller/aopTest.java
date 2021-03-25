@@ -17,6 +17,7 @@ public class aopTest {
     @McPermission("kei")
     public String list() {
         System.out.println("成功");
+        System.out.println("测试中");
         return "success11";
     }
 
