@@ -29,4 +29,10 @@ public class aopTest {
         System.out.println("==========");
         return "success";
     }
+
+
+    public void demo(){
+
+        System.out.println("sssssssssss");
+    }
 }
